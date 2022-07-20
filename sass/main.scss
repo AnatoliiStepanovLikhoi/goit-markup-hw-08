@@ -1,0 +1,40 @@
+@import './base/normilize';
+@import './base/fonts';
+@import './utils/variables';
+@import './base/common';
+@import './base/reset';
+@import './utils/center';
+@import './utils/visually-hidden';
+@import './components/container';
+@import './components/section';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './components/buttons';
+
+// Studio
+@import './layouts/page-header';
+@import './components/logo';
+@import './components/navigation';
+
+@import './layouts/hero';
+
+@import './layouts/benefits';
+
+@import './layouts/work';
+
+@import './layouts/team';
+@import './components/socials';
+
+@import './layouts/clients';
+
+@import './components/forms';
+@import './layouts/footer';
+
+@import './layouts/modal';
+@import './layouts/form';
+
+// Portfolio
+
+@import './layouts/buttons-bar';
+
+@import './layouts/projects';

@@ -1,0 +1,53 @@
+/* Our team */
+.team {
+    background-color: #F5F4FA;
+}
+
+.team__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.team__list {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.team__card {
+    background-color: $secondary-icon-color;
+    max-width: 270px;
+    margin: 0 15px;
+    box-shadow: 0px 2px 1px rgb(0 0 0 / 20%),
+        0px 1px 1px rgb(0 0 0 / 14%),
+        0px 1px 3px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+}
+
+.team__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.team__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.team__role {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: $description-text-color;
+    margin-bottom: 16px;
+}

@@ -1,0 +1,139 @@
+.hero-button {
+    font-family: inherit;
+    display: inline-block;
+    min-width: 200px;
+    height: 50px;
+    padding: 10px 32px;
+    /* text-align: center; */
+
+    background: $accent-text-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 2px transparent;
+    transition: background 250ms $timing-transition;
+
+    &:hover,
+    &:focus {
+        background: #188CE8;
+        cursor: pointer;
+    }
+}
+
+.hero-button__desc {
+    @extend %center;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    /* text-align: center; */
+    letter-spacing: 0.06em;
+    color: $secondary-icon-color;
+    /* cursor: pointer; */
+}
+
+// Footer button
+
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: inherit;
+    min-width: 200px;
+    height: 50px;
+    padding: 10px 28px;
+    cursor: pointer;
+
+    background: $accent-text-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 2px transparent;
+}
+
+.subscribe-button__text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $secondary-icon-color;
+}
+
+.subscribe-button__icon {
+    display: inline-block;
+    fill: $secondary-icon-color;
+    width: 24px;
+    height: 24px;
+}
+
+// Portfolio button
+
+.buttons-list__button {
+    width: auto;
+    height: auto;
+    padding: 6px 22px;
+
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+
+    transition: background 250ms $timing-transition, box-shadow 250ms $timing-transition;
+
+    &:hover,
+    &:focus {
+        background: $accent-text-color;
+        color: $secondary-icon-color;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    }
+
+}
+
+.backdrop__btn {
+    @extend %center;
+
+    position: absolute;
+    cursor: pointer;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    background-color: $secondary-icon-color;
+
+    &:hover,
+    &:focus {
+        fill: $accent-text-color;
+    }
+}
+
+.form__button {
+    @extend %center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 10px 32px;
+    min-width: 200px;
+    min-height: 50px;
+
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    color: $secondary-icon-color;
+    background-color: $accent-text-color;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}

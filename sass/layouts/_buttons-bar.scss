@@ -1,0 +1,11 @@
+/* buttons */
+
+.buttons-list__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    & >.buttons-list__item + .buttons-list__item {
+            margin-left: 8px;
+        }
+}
