@@ -1,0 +1,54 @@
+.mobile-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-menu__button{
+   display: inline-flex;
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    outline: none;
+    color: $primary-text-color;
+
+    .mobile-menu--close{
+        display: none;
+    }
+
+    &.is-open{
+        .mobile-menu--close{
+            display: block;
+        }
+        .mobile-menu--burger{
+            display: none;
+        }
+    }
+}
+
+.menu-container{
+    display: none;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+
+    &.is-open{
+        display: block;
+    }
+
+
+}
+
+
+
+
+

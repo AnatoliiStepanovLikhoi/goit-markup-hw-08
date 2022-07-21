@@ -2,8 +2,9 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,15 +23,63 @@
     <title>Студія</title>
   </head>
   <body>
+    <!-- <div class="container">1</div> -->
+
     <!-- Header -->
     <header class="page-header">
       <div class="container page-header__container">
         <!-- header_details -->
+
         <nav class="navigation">
-          <a href="./index.html" class="logo"
-            ><span class="logo--accent">Web</span>studio</a
-          >
-          <ul class="navigation__list list">
+          <div class="mobile-menu">
+            <a href="./index.html" class="logo"
+              ><span class="logo--accent">Web</span>studio</a
+            >
+            <button
+              class="mobile-menu__button"
+              type="button"
+              aria-expanded="false"
+              aria-controls="menu-container"
+              data-menu-button
+            >
+              <svg
+                class="mobile-menu__icon"
+                width="40px"
+                height="40px"
+                aria-label="Переключатель мобильного меню"
+              >
+                <use
+                  class="mobile-menu--close"
+                  href="./images/icons.svg#cross"
+                ></use>
+                <use
+                  class="mobile-menu--burger"
+                  href="./images/icons.svg#menu"
+                ></use>
+              </svg>
+            </button>
+            <div class="menu-container" id="menu-container" data-menu>
+              <ul class="navigation__list list">
+                <li class="navigation__item">
+                  <a
+                    href="./index.html"
+                    class="navigation__title navigation__title--current"
+                    >Студия</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="./portfolio.html" class="navigation__title"
+                    >Портфолио</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="" class="navigation__title">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- <ul class="navigation__list list">
             <li class="navigation__item">
               <a
                 href="./index.html"
@@ -44,10 +93,10 @@
             <li class="navigation__item">
               <a href="" class="navigation__title">Контакты</a>
             </li>
-          </ul>
+          </ul> -->
         </nav>
 
-        <ul class="list page-header__contacts">
+        <!-- <ul class="list page-header__contacts">
           <li class="page-header__item">
             <a
               class="page-header__mail"
@@ -67,14 +116,14 @@
               +380961111111
             </a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </header>
 
     <!-- main content -->
     <main>
       <!-- order service & button -->
-      <section class="hero-section">
+      <!-- <section class="hero-section">
         <div class="container hero-section__content">
           <h1 class="hero-section__title">
             ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
@@ -83,10 +132,10 @@
             <span class="hero-button__desc">Заказать услугу</span>
           </button>
         </div>
-      </section>
+      </section> -->
 
       <!-- benefits list -->
-      <section class="benefit section">
+      <!-- <section class="benefit section">
         <div class="benefit__container container">
           <h2 class="benefit__title visually-hidden">Benefits list</h2>
           <ul class="list benefit__list">
@@ -131,10 +180,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- our work -->
-      <section class="work-block section">
+      <!-- <section class="work-block section">
         <div class="work-block__container container">
           <h2 class="work-block__title">Чем мы занимаемся</h2>
           <ul class="work-block__list list">
@@ -182,10 +231,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Team -->
-      <section class="team section">
+      <!-- <section class="team section">
         <div class="team__container container">
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list list">
@@ -339,9 +388,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="clients section">
+      <!-- <section class="clients section">
         <div class="clients__container container">
           <h2 class="clients__title">Постоянные клиенты</h2>
           <ul class="clients__list list">
@@ -383,11 +432,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer__container container">
         <div>
           <a href="./index.html" class="logo__footer"
@@ -416,10 +465,10 @@
               </li>
             </ul>
           </address>
-        </div>
+        </div> -->
 
-        <!-- Footer social links -->
-        <div class="footer__connect">
+    <!-- Footer social links -->
+    <!-- <div class="footer__connect">
           <p class="footer__title">ПРИСОЕДИНЯЙТЕСЬ</p>
           <ul class="list footer-socials">
             <li class="footer-socials__item">
@@ -447,10 +496,10 @@
               ></a>
             </li>
           </ul>
-        </div>
+        </div> -->
 
-        <!-- footer subscribe form -->
-        <div class="footer__subscribe">
+    <!-- footer subscribe form -->
+    <!-- <div class="footer__subscribe">
           <p class="footer__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
           <form class="footer-form" autocomplete="off">
             <div class="footer-form__thumb">
@@ -472,7 +521,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- Backdrop -->
 
@@ -546,5 +595,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
