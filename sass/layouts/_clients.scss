@@ -1,55 +1,82 @@
 /* Our clients */
 
-// .clients__title {
-//     font-weight: 700;
-//     font-size: 36px;
-//     font-size: 28px;
-//     line-height: 1.17;
-//     text-align: center;
-//     margin-top: 0;
-//     margin-bottom: 50px;
-// }
+.clients__title {
+    font-weight: 700;
+    font-size: 36px;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
 
-// .clients__list {
-//     display: flex;
-
-//     & > .clients__item + .clients__item {
-//     margin-left: 30px;
-// }
-// }
-
-// .clients__item {
-//     flex-basis: calc((100% - 150px) / 6);
-//     max-width: 170px;
-//     height: 92px;
-//     outline: 1px solid $main-icon-color;
-//     border-radius: 4px;
-//     transition: outline 250ms $timing-transition;
-
-//     &:hover,
-//     &:focus {
-//     outline: 1px solid $accent-text-color;
-//         }
-// }
+.clients__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
 
 
-// .clients__link {
-//     @extend %center;
+    @media screen and (min-width: 1200px) {
+        margin: 0;
 
-//     width: 168px;
-//     height: 90px;
-//     color: $main-icon-color;
-//     transition: color 250ms $timing-transition;
+        &>.clients__item+.clients__item {
+            margin-left: 30px;
+        }
+    }
 
-//    &:hover,
-//    &:focus {
-//     color: $accent-text-color;
-//         }
+}
 
-// }
+.clients__item {
+    flex-basis: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
 
-// .clients__icon {
-//     width: 106px;
-//     height: 60px;
-//     fill: currentColor;
-// }
+    max-width: 210px;
+    height: 92px;
+    outline: 1px solid $main-icon-color;
+    border-radius: 4px;
+    transition: outline 250ms $timing-transition;
+
+    &:hover,
+    &:focus {
+    outline: 1px solid $accent-text-color;
+        }
+
+    @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 6 * 15px) / 3);
+    max-width: 226px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    max-width: 170px;
+    flex-basis: calc((100% - 150px) / 6);
+
+    margin: 0;
+    }
+
+}
+
+
+.clients__link {
+    @extend %center;
+
+    max-width: 208px;
+    height: 90px;
+    color: $main-icon-color;
+    transition: color 250ms $timing-transition;
+
+   &:hover,
+   &:focus {
+    color: $accent-text-color;
+        }
+
+    @media screen and (min-width: 1200px) {
+    width: 168px;
+    }
+
+}
+
+.clients__icon {
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+}

@@ -1,10 +1,28 @@
 .benefit__list {
-    // display: flex;
+    @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    }
 }
 
 .benefit__card {
+    max-width: 450px;
+    margin: 0 0 30px 0;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 768px) {
+    max-width: 354px;
+    margin: 0;
+    }
+
+    @media screen and (min-width: 1200px){
     max-width: 270px;
-    margin: 0 15px;
+    
+}
 }
 
 .benefit__icon::before {
