@@ -2,12 +2,16 @@
 
 .clients__title {
     font-weight: 700;
-    font-size: 36px;
     font-size: 28px;
     line-height: 1.17;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 1200px){
+    font-size: 36px;
     margin-bottom: 50px;
+    }
 }
 
 .clients__list {
@@ -49,7 +53,7 @@
     @media screen and (min-width: 1200px) {
     max-width: 170px;
     flex-basis: calc((100% - 150px) / 6);
-
+    
     margin: 0;
     }
 
