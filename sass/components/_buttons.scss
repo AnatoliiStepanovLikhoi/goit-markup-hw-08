@@ -109,10 +109,16 @@
     border-radius: 50px;
     background-color: $secondary-icon-color;
 
+    z-index: 100;
+
     &:hover,
     &:focus {
         fill: $accent-text-color;
     }
+}
+
+.backdrop__close{
+    z-index: 100;
 }
 
 .form__button {
