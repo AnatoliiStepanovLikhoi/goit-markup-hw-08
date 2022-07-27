@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ua">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -66,16 +66,16 @@
                   <a
                     href="./index.html"
                     class="menu-container__titlen menu-container__title--current link"
-                    >Студия</a
+                    >Студія</a
                   >
                 </li>
                 <li class="menu-container__item">
                   <a href="./portfolio.html" class="menu-container__title link"
-                    >Портфолио</a
+                    >Портфоліо</a
                   >
                 </li>
                 <li class="menu-container__item">
-                  <a href="" class="menu-container__title link">Контакты</a>
+                  <a href="" class="menu-container__title link">Контакти</a>
                 </li>
               </ul>
 
@@ -112,14 +112,14 @@
               <a
                 href="./index.html"
                 class="navigation__title navigation__title--current"
-                >Студия</a
+                >Студія</a
               >
             </li>
             <li class="navigation__item">
-              <a href="./portfolio.html" class="navigation__title">Портфолио</a>
+              <a href="./portfolio.html" class="navigation__title">Портфоліо</a>
             </li>
             <li class="navigation__item">
-              <a href="" class="navigation__title">Контакты</a>
+              <a href="" class="navigation__title">Контакти</a>
             </li>
           </ul>
         </nav>
@@ -154,10 +154,10 @@
       <section class="hero-section">
         <div class="container hero-section__content">
           <h1 class="hero-section__title">
-            ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
+            ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
           </h1>
           <button class="hero-button" type="button" data-modal-open>
-            <span class="hero-button__desc">Заказать услугу</span>
+            <span class="hero-button__desc">Замовити послугу</span>
           </button>
         </div>
       </section>
@@ -169,40 +169,40 @@
           <ul class="list benefit__list">
             <li class="benefit__card benefit__icon benefit--antenna">
               <div>
-                <h3 class="benefit__subtitle">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                <h3 class="benefit__subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
                 <p class="benefit__description">
-                  Идейные соображения, а также начало повседневной работы по
-                  формированию позиции.
+                  Ідейні міркування і навіть початок повсякденної роботи з
+                  формування позиції.
                 </p>
               </div>
             </li>
 
             <li class="benefit__card benefit__icon benefit--clock">
               <div>
-                <h3 class="benefit__subtitle">ПУНКТУАЛЬНОСТЬ</h3>
+                <h3 class="benefit__subtitle">ПУНКТУАЛЬНІСТЬ</h3>
                 <p class="benefit__description">
-                  Задача организации, в особенности же рамки и место обучения
-                  кадров влечет за собой.
+                  Завдання організації, особливо рамки і місце навчання кадрів
+                  тягне у себе.
                 </p>
               </div>
             </li>
 
             <li class="benefit__card benefit__icon benefit--diagram">
               <div>
-                <h3 class="benefit__subtitle">ПЛАНИРОВАНИЕ</h3>
+                <h3 class="benefit__subtitle">ПЛАНУВАННЯ</h3>
                 <p class="benefit__description">
-                  Равным образом консультация с широким активом в значительной
-                  степени обуславливает.
+                  Так само консультація з широким активом значною мірою
+                  зумовлює.
                 </p>
               </div>
             </li>
 
             <li class="benefit__card benefit__icon benefit--astronaut">
               <div>
-                <h3 class="benefit__subtitle">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                <h3 class="benefit__subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                 <p class="benefit__description">
-                  Значимость этих проблем настолько очевидна, что реализация
-                  плановых заданий.
+                  Значимість цих проблем настільки очевидна, що реалізація
+                  планових завдань.
                 </p>
               </div>
             </li>
@@ -213,19 +213,24 @@
       <!-- our work -->
       <section class="work-block section">
         <div class="work-block__container container">
-          <h2 class="work-block__title">Чем мы занимаемся</h2>
+          <h2 class="work-block__title">Чим ми займаємося</h2>
           <ul class="work-block__list list">
             <li class="work-block__card">
               <div class="work-block__thumb">
                 <img
                   class="work-block__image"
-                  src="images/whatwedo1.jpg"
+                  srcset="
+                    ./images/work/work-lg03-370.jpg 370w,
+                    ./images/work/work-lg03-740.jpg 740w
+                  "
+                  sizes="(min-width: 1200px) 370px, 100vw"
+                  src="./images/whatwedo1.jpg"
                   alt="верстка"
                   width="370"
                   height="294"
                 />
                 <div class="work-block__description">
-                  <p class="work-block__text">Десктопные приложения</p>
+                  <p class="work-block__text">Десктопні додатки</p>
                 </div>
               </div>
             </li>
@@ -233,13 +238,18 @@
               <div class="work-block__thumb">
                 <img
                   class="work-block__image"
+                  srcset="
+                    ./images/work/work-lg02-370.jpg 370w,
+                    ./images/work/work-lg02-740.jpg 740w
+                  "
+                  sizes="(min-width: 1200px) 370px, 100vw"
                   src="images/whatwedo2.jpg"
                   alt="мобільні додатки"
                   width="370"
                   height="294"
                 />
                 <div class="work-block__description">
-                  <p class="work-block__text">Мобильные приложения</p>
+                  <p class="work-block__text">Мобільні додатки</p>
                 </div>
               </div>
             </li>
@@ -247,13 +257,18 @@
               <div class="work-block__thumb">
                 <img
                   class="work-block__image"
+                  srcset="
+                    ./images/work/work-lg01-370.jpg 370w,
+                    ./images/work/work-lg01-740.jpg 740w
+                  "
+                  sizes="(min-width: 1200px) 370px, 100vw"
                   src="images/whatwedo3.jpg"
                   alt="дизайн"
                   width="370"
                   height="294"
                 />
                 <div class="work-block__description">
-                  <p class="work-block__text">Дизайнерские решения</p>
+                  <p class="work-block__text">Дизайнерські рішення</p>
                 </div>
               </div>
             </li>
@@ -267,12 +282,67 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list list">
             <li class="team__card">
-              <img
-                class="team__image"
-                src="images/Igor.jpg"
-                alt="Игорь Демьяненко"
-              />
-              <h3 class="team__name">Игорь Демьяненко</h3>
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/team-lg04.webp    1x,
+                    ./images/team/team-lg04@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/team-lg04.jpg    1x,
+                    ./images/team/team-lg04@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/team-md04.webp    1x,
+                    ./images/team/team-md04@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/team-md04.jpg    1x,
+                    ./images/team/team-md04@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/team-sm04.webp    1x,
+                    ./images/team/team-sm04@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/team-sm04.jpg    1x,
+                    ./images/team/team-sm04@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="team__image"
+                  src="images/Igor.jpg"
+                  alt="Игорь Демьяненко"
+                />
+              </picture>
+
+              <h3 class="team__name">Ігор Дем'яненко</h3>
               <p class="team__role">Product Designer</p>
               <ul class="list social">
                 <li class="social__item">
@@ -302,11 +372,66 @@
               </ul>
             </li>
             <li class="team__card">
-              <img
-                class="team__image"
-                src="images/Olga.jpg"
-                alt="Ольга Репина"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/team-lg03.webp    1x,
+                    ./images/team/team-lg03@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/team-lg03.jpg    1x,
+                    ./images/team/team-lg03@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/team-md03.webp    1x,
+                    ./images/team/team-md03@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/team-md03.jpg    1x,
+                    ./images/team/team-md03@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/team-sm03.webp    1x,
+                    ./images/team/team-sm03@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/team-sm03.jpg    1x,
+                    ./images/team/team-sm03@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="team__image"
+                  src="images/Olga.jpg"
+                  alt="Ольга Репина"
+                />
+              </picture>
+
               <h3 class="team__name">Ольга Репина</h3>
               <p class="team__role">Frontend Developer</p>
               <ul class="social list">
@@ -337,12 +462,67 @@
               </ul>
             </li>
             <li class="team__card">
-              <img
-                class="team__image"
-                src="images/Mykola.jpg"
-                alt="Николай Тарасов"
-              />
-              <h3 class="team__name">Николай Тарасов</h3>
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/team-lg02.webp    1x,
+                    ./images/team/team-lg02@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/team-lg02.jpg    1x,
+                    ./images/team/team-lg02@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/team-md02.webp    1x,
+                    ./images/team/team-md02@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/team-md02.jpg    1x,
+                    ./images/team/team-md02@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/team-sm02.webp    1x,
+                    ./images/team/team-sm02@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/team-sm02.jpg    1x,
+                    ./images/team/team-sm02@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="team__image"
+                  src="images/Mykola.jpg"
+                  alt="Николай Тарасов"
+                />
+              </picture>
+
+              <h3 class="team__name">Микола Тарасов</h3>
               <p class="team__role">Marketing</p>
               <ul class="list social">
                 <li class="social__item">
@@ -372,12 +552,67 @@
               </ul>
             </li>
             <li class="team__card">
-              <img
-                class="team__image"
-                src="images/Myha.jpg"
-                alt="Михаил Ермаков"
-              />
-              <h3 class="team__name">Михаил Ермаков</h3>
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/team-lg01.webp    1x,
+                    ./images/team/team-lg01@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/team-lg01.jpg    1x,
+                    ./images/team/team-lg01@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/team-md01.webp    1x,
+                    ./images/team/team-md01@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/team-md01.jpg    1x,
+                    ./images/team/team-md01@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/team-sm01.webp    1x,
+                    ./images/team/team-sm01@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/team-sm01.jpg    1x,
+                    ./images/team/team-sm01@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="team__image"
+                  src="images/Myha.jpg"
+                  alt="Михаил Ермаков"
+                />
+              </picture>
+
+              <h3 class="team__name">Михаило Єрмаков</h3>
               <p class="team__role">UI Designer</p>
               <ul class="list social">
                 <li class="social__item">
@@ -412,7 +647,7 @@
 
       <section class="clients section">
         <div class="clients__container container">
-          <h2 class="clients__title">Постоянные клиенты</h2>
+          <h2 class="clients__title">Постійні клієнти</h2>
           <ul class="clients__list list">
             <li class="clients__item">
               <a class="clients__link" href="">
@@ -471,7 +706,7 @@
                     href="https://bit.ly/3pXMvUd"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >г. Киев, пр-т Леси Украинки, 26</a
+                    >м. Київ, пр-т Лесі Українки, 26</a
                   >
                 </li>
                 <li class="footer__item">
@@ -490,7 +725,7 @@
 
           <!-- Footer social links -->
           <div class="footer__connect">
-            <p class="footer__title">ПРИСОЕДИНЯЙТЕСЬ</p>
+            <p class="footer__title">ПРИЄДНУЙТЕСЯ</p>
             <ul class="list footer-socials">
               <li class="footer-socials__item">
                 <a class="footer-socials__link" href=""
@@ -523,7 +758,7 @@
         <!-- footer subscribe form -->
 
         <div class="footer__subscribe">
-          <p class="footer__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+          <p class="footer__title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
           <form class="footer-form" autocomplete="off">
             <div class="footer-form__thumb">
               <label class="footer-form__label">
@@ -535,7 +770,7 @@
                 />
               </label>
               <button class="subscribe-button" type="submit">
-                <span class="subscribe-button__text">Подписаться</span>
+                <span class="subscribe-button__text">Підписатися</span>
                 <svg class="subscribe-button__icon">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
@@ -556,12 +791,12 @@
           </svg>
         </button>
 
-        <p class="backdrop__title">Оставьте свои данные, мы вам перезвоним</p>
+        <p class="backdrop__title">Залиште свої дані, ми вам передзвонимо</p>
 
         <form class="form">
           <ul class="form__list list">
             <li class="form__field">
-              <label class="form__label" for="name">Имя</label>
+              <label class="form__label" for="name">Ім'я</label>
               <input
                 class="form__input"
                 type="text"
@@ -581,7 +816,7 @@
               </svg>
             </li>
             <li class="form__field">
-              <label class="form__label" for="mail">Почта</label>
+              <label class="form__label" for="mail">Пошта</label>
               <input class="form__input" type="email" name="mail" id="mail" />
               <svg class="form__icon" width="15px" height="12px">
                 <use href="./images/icons.svg#email"></use>
@@ -589,12 +824,12 @@
             </li>
           </ul>
           <div class="form__text">
-            <label class="form__label" for="comment">Комментарий</label>
+            <label class="form__label" for="comment">Коментар</label>
             <textarea
               class="form__comment"
               name="comment"
               id="comment"
-              placeholder="Введите текст"
+              placeholder="Введіть текст"
             ></textarea>
           </div>
           <div class="form__agree">
@@ -606,13 +841,13 @@
                 </svg>
               </span>
               <span class="form__desc"
-                >Соглашаюсь с рассылкой и принимаю
-                <a class="form__link" href="">Условия договора</a></span
+                >Погоджуюся з розсилкою та приймаю
+                <a class="form__link" href="">Умови договору</a></span
               >
             </label>
           </div>
 
-          <button class="form__button" type="submit">Отправить</button>
+          <button class="form__button" type="submit">Відправити</button>
         </form>
       </div>
     </div>
