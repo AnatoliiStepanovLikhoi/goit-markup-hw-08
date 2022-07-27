@@ -11,21 +11,19 @@
     line-height: 1.19;
     padding: 16px 0;
 
+    @media screen and (min-width: 768px) {
+    padding: 24px 0;
+    font-size: 26px;
+    }
+
     &__footer {
     @extend .logo;
-
     color: $secondary-icon-color;    
-    margin-bottom: 20px;
     padding: 0;
+    margin-bottom: 20px;
     }
 
     &--accent {
         color: $accent-text-color;
     }
 }
-
-@media screen and (min-width: 768px) {
-    .logo{            
-    padding: 24px 0;
-    font-size: 26px;}
-    }

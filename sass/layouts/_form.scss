@@ -61,7 +61,7 @@
 
 .form__comment {
     padding: 12px 16px;
-    width: 448px;
+    width: 100%;
     height: 120px;
     resize: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -101,6 +101,12 @@
 
 .form__wrap {
     @extend %center;
+
+    max-width: 370px;
+
+    @media screen and (min-width: 1200px) {
+    max-width: 425px;
+    }
 }
 
 .form__checkbox {
@@ -136,6 +142,14 @@
     &--fill {
             fill: $secondary-icon-color;
         }
+}
+
+.form__desc{
+    font-size: 12px;
+
+    @media screen and (min-width: 1200px){
+    font-size: inherit;
+    }
 }
 
 .form__link {
