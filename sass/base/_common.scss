@@ -6,6 +6,9 @@ body {
     letter-spacing: 0.03em;
 }
 
+body.no-scroll {
+    overflow: hidden;
+}
 
 img {
     display: block;
