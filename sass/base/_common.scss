@@ -1,17 +1,17 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    color: $primary-text-color;
-    background-color: #FFFFFF;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-}
+  font-family: "Roboto", sans-serif;
+  color: $primary-text-color;
+  background-color: $secondary-icon-color;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 
-body.no-scroll {
+  &.no-scroll {
     overflow: hidden;
+  }
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
