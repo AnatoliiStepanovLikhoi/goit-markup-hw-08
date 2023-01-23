@@ -322,13 +322,17 @@ summary {
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-
 body.no-scroll {
   overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  body.menu-opened {
+    overflow: hidden;
+  }
 }
 
 img {
@@ -701,7 +705,6 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  overflow: hidden;
 }
 
 .mobile-menu__button {
@@ -1242,6 +1245,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 206px;
   padding-bottom: 24px;
   margin-left: auto;
